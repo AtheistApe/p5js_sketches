@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TreeArrayObjects</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="branch.js" type="text/javascript"></script>
+    <script src="leaf.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <h1>Fall is Coming!</h1>
+    <p>
+      I modified the "TreeArrayObjects" example to include:
+      <ul>
+        <li>Branch widths calculated using a decaying exponential
+        model based on branch generation.</li>
+        <li>Branch angles and lengths are set within various random
+          ranges to give a more realistic tree-like structure.</li>
+        <li>Leaves which change from green to a random color between
+          yellow and red.</li>
+        <li>When a leaf reaches its final color it falls to the ground.</li>
+        <li>As the leaf falls it is affected by a Perlin noise wind.</li>
+        <li>The leaves collect on the ground.</li>
+      </ul>
+    </p>
+  </body>
+</html>
